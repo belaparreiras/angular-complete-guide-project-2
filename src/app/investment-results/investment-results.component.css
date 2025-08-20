@@ -1,0 +1,22 @@
+table {
+  max-width: 50rem;
+  margin: 0.5rem auto;
+  padding: 1rem;
+  table-layout: fixed;
+  border-spacing: 1rem;
+  text-align: center;
+}
+
+table thead {
+  font-size: 0.8rem;
+}
+
+table tbody {
+  font-size: 0.85rem;
+}
+
+p{
+  margin: 2rem;
+  text-align: center;
+}
+

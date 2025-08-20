@@ -1,0 +1,48 @@
+form {
+  padding: 2rem;
+  max-width: 30rem;
+  margin: 0 auto;
+  border-radius: 1rem;
+  background: linear-gradient(180deg, #db7695, #F896BD);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+input {
+  padding: 0.5rem;
+  border: 1px solid #FFEDED;
+  color: #FFEDED;
+  border-radius: 0.25rem;
+  background-color: transparent;
+  font-size: 1rem;
+}
+
+button {
+  width: 100%;
+  padding: 0.5rem;
+  border: 0px;
+  border-radius: 0.65rem;
+  background-color: #ffeded;
+  color: #42373a !important;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #42373a;
+  color: #ffeded !important;
+}
